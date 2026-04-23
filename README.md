@@ -21,3 +21,13 @@ $u \frac{\partial v}{\partial x} + v \frac{\partial v}{\partial y} + \frac{1}{\r
 Continuity:
 
 $\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} =0$
+
+* Simulation Setup
+Domain: Rectangle ($L=2,D=1$) centered at the origin.
+Physical Parameters: Density ($\rho$) = 1, Dynamic Viscosity ($\mu$) = 1
+
+* Boundary Conditions (BC):
+Inlet($x = -L/2$): Constant velocity $u = 1, v = 0$
+Oulet($x = L/2$): Reference pressure $p = 0$ and $v = 0$
+Walls($y = \pm D/2$): No-slip condition $u = 0, v = 0$
+
