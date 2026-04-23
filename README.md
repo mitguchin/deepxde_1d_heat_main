@@ -79,3 +79,30 @@ Max Iterations: 3,000
 
 A second-order optimizer that utilizes Hessian approximations to achieve high-precision refinement in the final training stage.
 
+---
+
+4. Result & Visualization
+
+
+The trained PINN(Physically Informed Neural Network) acts as a continuous surrogate model, allowing for inference at any point within the domain.
+
+* Flow Field Prediction:
+
+Predications for velocity components ($u,v$) and pressure ($p$) were generated across 500,000 sample points.
+
+* Visualization:
+
+High-fidelity contour plots using the ($jet$) colormap visualize the velocity gradients near the walls and the pressure drop across the channel.
+
+---
+
+5. Implementation DetailsFramework:
+
+* DeepXDE with a TensorFlow backend.
+
+* Key Libraries: NumPy for data processing, Matplotlib for scientific visualization.
+
+* Hardware: Optimized for CUDA-enabled GPU acceleration.
+
+* Progress Tracking: TQDM integrated for real-time training monitoring.
+
