@@ -3,6 +3,7 @@
 ---
 
 1. Problem Statement: Navier Stokes Equation
+
 : The goal is to simulate fluid flow within a rectangular domain by minimizing the residuals of the governing physical laws directly within the neural network's loss function.
 
 * Governing Equations
