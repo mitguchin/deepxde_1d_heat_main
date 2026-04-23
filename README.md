@@ -40,7 +40,9 @@ Walls($y = \pm D/2$): No-slip condition $u = 0, v = 0$
 
 2. Technical Highlights
 
+
 * Neural Network Architecture
+
 
 Structure: Fully Connected Neural Network(FNN).
 
@@ -50,4 +52,10 @@ Depth: 5 hidden layers with 64 neurons each.
 
 Activation: Tanh(Hyperbolic Tangent) is utilized to ensure the existence of smooth higher-order derivatives required for the Laplacian
 ($\nabla^2$) terms in the PDE loss.
+
+
+* Physics-Informed Training(Autograd)
+
+
+Using the Deep
 
