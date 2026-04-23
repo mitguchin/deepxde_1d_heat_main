@@ -1,4 +1,4 @@
-# deepxde_2d_heat_main
+# deepxde_1d_heat_main
 
 ---
 
