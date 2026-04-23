@@ -1,3 +1,4 @@
 # deepxde_1d_heat_main
 
-= Physics
+Physics Informed Machine Learning (PIML)
+* This portfolio showcases the implementation of Physics
