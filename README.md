@@ -20,4 +20,4 @@ $u \frac{\partial v}{\partial x} + v \frac{\partial v}{\partial y} + \frac{1}{\r
 
 Continuity:
 
-$\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} =$
+$\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} =0$
