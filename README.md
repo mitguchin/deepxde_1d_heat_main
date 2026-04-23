@@ -58,5 +58,24 @@ Activation: Tanh(Hyperbolic Tangent) is utilized to ensure the existence of smoo
 * Physics-Informed Training(Autograd)
 
 
-Using the Deep
+Using the DeepXDE framework, the physical residuals are optimized:
+
+PDE Loss: Evaluated at 2,000 domain points to enforce fluid conservation laws.
+
+BC Loss: Evaluated at 200 boundary points to satisfy Dirichlet conditions.
+
+Automatic Differentiation: Employs Jacobians & Hessian to calculate exact spatial derivatives without the truncation errors of traditional mesh-based solvers.
+
+---
+
+3. Two-stage Optimization Strategy
+
+
+A hybrid approach was implemented to achieve both robust exploration and high-precision convergence:
+
+* Adam Optimizer:
+
+Max Iterations: 3,000
+
+A second-order optimizer that utilizes Hessian approximations to achieve high-precision refinement in the final training stage.
 
