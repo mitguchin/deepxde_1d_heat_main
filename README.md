@@ -1,4 +1,5 @@
-# deepxde_1d_heat_main
+# deepxde_2d_heat_main
 
-Physics Informed Machine Learning (PIML)
-* This portfolio showcases the implementation of Physics
+---
+1. Problem Statement: Navier Stokes Equation
+: The godl
