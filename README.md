@@ -86,15 +86,38 @@ A second-order optimizer that utilizes Hessian approximations to achieve high-pr
 
 The trained PINN(Physically Informed Neural Network) acts as a continuous surrogate model, allowing for inference at any point within the domain.
 
-* Flow Field Prediction:
+* **Flow Field Prediction**:
 
 Predications for velocity components ($u,v$) and pressure ($p$) were generated across 500,000 sample points.
 
-* Visualization:
+![Domain Sampling]
+
+* **<img width="977" height="826" alt="Data1" src="https://github.com/user-attachments/assets/6e0ceb64-ef1c-40b1-9cf6-1825dea566c6" />
+
+**Figure 1:**
+Spatio-temporal domain sampling used for the simulation.
+
+---
+
+* **Visualization**:
 
 High-fidelity contour plots using the ($jet$) colormap visualize the velocity gradients near the walls and the pressure drop across the channel.
 
+![Training Loss History]
+
+<img width="626" height="666" alt="Data2" src="https://github.com/user-attachments/assets/811276fb-e7e6-43e9-bbc8-3dccb59a6457" />
+
+**Figure 2:**
+Training & Test loss convergence showing the model optimization process.
+
+<img width="631" height="504" alt="Data3" src="https://github.com/user-attachments/assets/256ac00c-8d3e-468b-af21-89523d94f96b" />
+
+**Figure 3:**
+3D visulization of the predicted temperature/flow field.
+
 ---
+
+
 
 5. Implementation DetailsFramework:
 
